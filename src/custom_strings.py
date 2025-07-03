@@ -7,7 +7,7 @@ def to_lower(s):
 
 
 def capitalize_words(s):
-    return ' '.join(word.capitalize() for word in s.split())
+    return " ".join(word.capitalize() for word in s.split())
 
 
 def reverse_string(s):
@@ -19,7 +19,7 @@ def strip_spaces(s):
 
 
 def is_palindrome(s):
-    cleaned = ''.join(filter(str.isalnum, s)).lower()
+    cleaned = "".join(filter(str.isalnum, s)).lower()
     return cleaned == cleaned[::-1]
 
 
@@ -33,7 +33,8 @@ def count_consonants(s):
 
 def remove_punctuation(s):
     import string
-    return ''.join(char for char in s if char not in string.punctuation)
+
+    return "".join(char for char in s if char not in string.punctuation)
 
 
 def get_unique_words(s):
@@ -53,7 +54,7 @@ def repeat_string(s, times):
 
 
 def truncate_string(s, length):
-    return s[:length] + '...' if len(s) > length else s
+    return s[:length] + "..." if len(s) > length else s
 
 
 def title_case(s):

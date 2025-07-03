@@ -19,7 +19,14 @@ def simulate_calculations():
 
 def simulate_string_ops():
     print("Starting string operations...\n")
-    examples = ["Hello World", "Python is great!", "Testing 123", "    spaced out   ", "UPPER lower"]
+    examples = [
+        "Hello World",
+        "ok",
+        "Python is great!",
+        "Testing 123",
+        "    spaced out   ",
+        "UPPER lower",
+    ]
     for s in examples:
         print(f"Original: '{s}'")
         print(f"Upper: '{strings.to_upper(s)}'")
