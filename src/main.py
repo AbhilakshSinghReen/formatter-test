@@ -25,6 +25,7 @@ def simulate_string_ops():
         "Python is great!",
         "Testing 123",
         "    spaced out   ",
+        "ok bro",
         "UPPER lower",
     ]
     for s in examples:
